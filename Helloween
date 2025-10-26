@@ -7,8 +7,6 @@ local success, WindUI = pcall(function()
     local result = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
     print("WindUI loaded successfully.")
     return result
-task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vertix-hub/Script-Hub/refs/heads/main/Menu"))()
 end)
 
 if not success or not WindUI then
