@@ -2,6 +2,9 @@
 -- Author: Yuki
 
 -- Load WindUI safely
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vertix-hub/Script-Hub/refs/heads/main/Menu"))()
+    end)
 local success, WindUI = pcall(function()
     print("Attempting to load WindUI...")
     local result = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
